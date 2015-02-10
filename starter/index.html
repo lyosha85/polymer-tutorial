@@ -17,6 +17,7 @@
   <link rel="import" href="../components/core-toolbar/core-toolbar.html">
   <link rel="import" href="../components/paper-tabs/paper-tabs.html">
   <link rel="import" href="post-card.html">
+  <link rel="import" href="post-list.html">
   <style>
   html,body {
     height: 100%;
@@ -69,20 +70,7 @@
   </core-toolbar>
   <!-- main page content will go here -->
   <div class="container" layout vertical center>
-    <post-card>
-      <img src="../images/avatar-07.svg" width="70" height="70">
-      <h2>Making the polymerz</h2>
-      <p>Making compositions with the ShadowDOM >:) </p>
-    </post-card>
-    <post-card>
-      <img src="../images/avatar-01.svg" width="70" height="50">
-      <h2> Another cardo!</h2>
-      <ul>
-        <li>Fun</li>
-        <li>Fun!</li>
-        <li>Fun!!</li>
-      </ul>
-    </post-card>
+    <post-list show="all"></post-list>
   </div>
 </core-header-panel>
 
